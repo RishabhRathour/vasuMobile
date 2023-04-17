@@ -5,10 +5,10 @@ const Footer = () => {
     <footer>
       <div>
 
-      <h1>Techy Star</h1>
+      <h1>Vasu Mobiles</h1>
       <p>@all right reserved</p>
       </div>
-      <div>
+      {/* <div>
         <h5>Follow us</h5>
         <div>
 
@@ -18,7 +18,7 @@ const Footer = () => {
         <a href="https://twitter.com/Rishabhrathour7" target={"blank"}>Twitter</a>
         <a href="https://github.com/Hpro78891" target={"blank"}>Github</a>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 }

@@ -18,12 +18,12 @@
         justify-content: center;
 
         h1{
-            font: 400 6rem $text1;
-            color:$first;
+            font: 600 5rem $text1;
+            color:$seconds;
         }
         p{
             font:900 1rem $text1;
-            color: $first;
+            color: $seconds;
         }
     }
 
@@ -32,8 +32,8 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        background: no-repeat center/auto url("../assets/1.png");
-       
+        // background: no-repeat center/auto url("../assets/1.png");
+        background: no-repeat center/auto url("https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
         border-radius: 0 0 200px 200px;
     }
 

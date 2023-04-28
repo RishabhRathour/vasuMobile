@@ -5,14 +5,16 @@ import {HashLink} from 'react-router-hash-link'
 const Header = () => {
   return (
     <nav>
-      <h1>Vasu Mobile</h1>
+      <HashLink to={"/"}>
+        <h1>Vasu Mobile</h1>
+        </HashLink>
       <main>
-        <HashLink to={"/#home"}>Home</HashLink>
-        <Link to={"/contact"}>Contact</Link>
-        <HashLink to={"/#about"}>About</HashLink>
-        <HashLink to={"/#brands"}>Deals in</HashLink>
+       
+         <HashLink to={"/#sell"}>Sell Your Phone</HashLink>
+        <HashLink to={"/#buy"}>Buy Phone</HashLink>
+        <HashLink to={"/#repair"}>Repair</HashLink>
         <Link to={"/services"}>Services</Link>
-        <Link to={"/login"}>Login</Link>
+        <Link to={"/login"}>Login /Signup</Link>
        
       </main>
     </nav>
